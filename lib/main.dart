@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "App Lita para Widget",
+      title: "Cálculo de Custo de Viagem",
       home: HomeScreen(),
     );
   }
@@ -19,5 +19,9 @@ class MyApp extends StatelessWidget {
 
 class HomeScreen extends StatefulWidget{
   @override
-  
+  State<HomeScreen> createState() => _HomeScreen();
+  }
+
+  class _HomeScreen extends State<HomeScreen>{
+    
   }
